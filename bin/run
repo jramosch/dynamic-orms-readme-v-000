@@ -12,3 +12,4 @@ song.save
 
 DB[:conn].execute("SELECT * FROM songs")
 
+Song.column_names
